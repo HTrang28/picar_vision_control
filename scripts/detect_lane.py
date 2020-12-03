@@ -283,7 +283,7 @@ class DetectLane():
         lastTime = rospy.Time.now()
 
 if __name__ == '__main__':
-    rospy.init_node('face_to_face')
+    rospy.init_node('lane_detect')
     fd = DetectLane()
 
     rate = rospy.Rate(10)
